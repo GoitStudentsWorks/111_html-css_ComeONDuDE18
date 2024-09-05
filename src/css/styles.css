@@ -3,7 +3,7 @@
   | include css partials with
   | default @import url()
   |============================
-*/Global style*/
+**/
 @import url('./reset.css');
 @import url('./container.css');
 
