@@ -2,6 +2,48 @@
 @import url('reset.css');
 @import url('container.css');
 
+.section-choose {
+  background-image: url(../img/WatchHubIMG/hand1x_mobile.jpg);
+  border-radius: 30px;
+  max-width: 767px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0;
+}
+@media screen and (max-width: 767px) and (min-resolution: 192dpi),
+screen and (max-width: 767px) and (min-resolution: 2dppx) {
+.section-choose{
+  background-image: url(../img/WatchHubIMG/hand2x_mobile.jpg);
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .section-choose {
+    background-image: url(../img/WatchHubIMG/hand1x_tablet.jpg);
+    background-size: cover;
+    max-width: 1157px;
+    padding: 80px 0;
+  }
+  .tittle-choose {
+    margin-bottom: 0 32px;
+  }
+}
+ }
+ @media screen and (min-width: 767px) and (min-resolution: 192dpi),
+        screen and (min-width: 767px) and (min-resolution: 2dppx) {
+  .section-choose {
+   background-image: url(../img/WatchHubIMG/hand2x_tablet.jpg);
+   background-size: cover;
+   min-width: 768px;
+   max-width: 1157px;
+   padding: 80px 0;
+}
+.tittle-choose {
+  margin-bottom: 0 32px;
+}
+  }
+
+
 
 .tittle-choose {
   font-family: "Gilroy", sans-serif;
@@ -12,6 +54,7 @@
   padding: 0 28px;
   max-width: 279px;
   margin-bottom: 28px;
+  color: #fbfbfb;
 }
 .span-choose {
   color:rgba(251, 251, 251, 0.5);
@@ -19,7 +62,6 @@
 .button-choose {
   font-family: "Gilroy", sans-serif;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.3;
   text-align: center;
   margin: 0 28px;
@@ -32,7 +74,9 @@
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
   background-color: transparent;
+  color: #fbfbfb;
 }
+
 
 
 
