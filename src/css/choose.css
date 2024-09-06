@@ -67,9 +67,10 @@ screen and (max-width: 767px) and (min-resolution: 2dppx) {
     height: 186px;
     font-size: 48px;
   }
-  .button-choose{
-    margin: 0 64px;
-  }
+  .button-choose {
+    margin-left: 64px;
+   }
+
 }
  }
  @media screen and (min-width: 767px) and (min-resolution: 192dpi),
@@ -91,48 +92,72 @@ screen and (max-width: 767px) and (min-resolution: 2dppx) {
   height: 186px;
   font-size: 48px;
 }
-.button-choose{
-  margin: 0 64px;
-}
+ .button-choose {
+  margin-left: 64px;
+ }
   }
   @media screen and (min-width: 1158px) {
     .section-choose {
       background-image: url(../img/WatchHubIMG/hand1x_desktop.jpg);
       min-width: 1158px;
-      padding: 82px 0;
-    }
-    .tittle-choose {
-      padding: 0 80px;
-      min-width: 690px;
-      height: 132px;
-      font-size: 48px;
 
     }
+    .container {
+      margin: 0 80px;
+      padding: 0;
+    }
+    .tittle-choose {
+      padding: 0;
+      min-width: 690px;
+      height: 132px;
+      margin: 0;
+      font-weight: 600;
+font-size: 48px;
+line-height: 0.91667;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+    }
+    .container-choose {
+
+      display: flex;
+      gap: 140px;
+
+    }
+    .button-choose {
+      margin: 0;
+    }
+
   }
+
   @media screen and (min-width: 1158px) and (min-resolution: 192dpi),
         screen and (min-width: 1158px) and (min-resolution: 2dppx) {
           .section-choose {
             background-image: url(../img/WatchHubIMG/hand2x_desktop.jpg);
-            display: flex;
-            min-width: 1150px;
-            height: 132px;
-          }
+            min-width: 1158px;
 
+          }
+          .container {
+            margin: 0 80px;
+            padding: 0;
+          }
           .tittle-choose {
             padding: 0;
             min-width: 690px;
             height: 132px;
-            font-size: 48px
+            margin: 0;
+            font-weight: 600;
+font-size: 48px;
+line-height: 0.91667;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+          }
+          .container-choose {
+
+            display: flex;
+            gap: 140px;
+
+          }
+          .button-choose {
+            margin: 0;
+          }
         }
-        .container {
-          margin: 0 80px;
-        }
-        .button-choose {
-          margin: 0 140px;
-        }
-         }
-
-
-
-
-
