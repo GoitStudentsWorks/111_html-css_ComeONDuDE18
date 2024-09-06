@@ -151,8 +151,8 @@ p {
 /*ABOUT US*/
 .about-container {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   gap: 20px;
   padding: 0px 20px;
