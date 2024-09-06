@@ -123,6 +123,9 @@ picture {
   }
 }
 @media only screen and (min-width: 1200px) {
+  .catalog {
+    padding: 50px 0;
+  }
   .container {
     padding: 0 16px;
   }
