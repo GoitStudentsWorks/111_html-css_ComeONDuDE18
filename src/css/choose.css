@@ -1,29 +1,164 @@
-.back-link {
-  position: relative;
-  display: inline-block;
-  padding: 4px 8px;
-  margin-top: 32px;
-  border: 1px solid;
-  border-radius: 8px;
-}
-.back-link::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 16px;
-  height: 16px;
+@import url('fonts.css');
+@import url('reset.css');
+@import url('container.css');
 
+
+.tittle-choose {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  padding: 0 28px;
+  max-width: 279px;
+  margin-bottom: 28px;
+  color: #fbfbfb;
+}
+.span-choose {
+  color:rgba(251, 251, 251, 0.5);
+}
+.button-choose {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+  margin: 0 28px;
+  padding-top: 15px ;
+  padding-bottom: 15px;
+  padding-left: 44px;
+  padding-right: 43px;
+  max-width: 160px;
+  height: 48px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  background-color: transparent;
+  color: #fbfbfb;
+}
+
+.section-choose {
+  background-image: url(../img/WatchHubIMG/hand1x_mobile.jpg);
+  border-radius: 30px;
+  max-width: 767px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z'/%3E%3C/svg%3E");
-  transition: 300ms ease-in;
-  transition-property: opacity;
-  opacity: 0;
-  animation: slide 500ms linear infinite alternate-reverse both;
-  animation-play-state: paused;
+  background-size: cover;
+  padding: 60px 0;
+  margin: 0 auto;
 }
-.back-link:hover::before {
-  opacity: 1;
-  animation-play-state: running;
+@media screen and (max-width: 767px) and (min-resolution: 192dpi),
+screen and (max-width: 767px) and (min-resolution: 2dppx) {
+.section-choose{
+  background-image: url(../img/WatchHubIMG/hand2x_mobile.jpg);
+  background-size: cover;
 }
+@media screen and (min-width: 768px) {
+  .section-choose {
+    background-image: url(../img/WatchHubIMG/hand1x_tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 768px;
+    max-width: 1157px;
+    padding: 80px 0;
+  }
+  .tittle-choose {
+    margin-bottom: 0 32px;
+    padding: 0 64px;
+    min-width: 576px;
+    height: 186px;
+    font-size: 48px;
+  }
+  .button-choose {
+    margin-left: 64px;
+   }
+
+}
+ }
+ @media screen and (min-width: 767px) and (min-resolution: 192dpi),
+        screen and (min-width: 767px) and (min-resolution: 2dppx) {
+  .section-choose {
+   background-image: url(../img/WatchHubIMG/hand2x_tablet.jpg);
+
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   min-width: 768px;
+   max-width: 1157px;
+   padding: 80px 0;
+}
+.tittle-choose {
+  margin-bottom: 0 32px;
+  padding: 0 64px;
+  min-width: 576px;
+  height: 186px;
+  font-size: 48px;
+}
+ .button-choose {
+  margin-left: 64px;
+ }
+  }
+  @media screen and (min-width: 1158px) {
+    .section-choose {
+      background-image: url(../img/WatchHubIMG/hand1x_desktop.jpg);
+      min-width: 1158px;
+
+    }
+    .container {
+      margin: 0 80px;
+      padding: 0;
+    }
+    .tittle-choose {
+      padding: 0;
+      min-width: 690px;
+      height: 132px;
+      margin: 0;
+      font-weight: 600;
+font-size: 48px;
+line-height: 0.91667;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+    }
+    .container-choose {
+
+      display: flex;
+      gap: 140px;
+
+    }
+    .button-choose {
+      margin: 0;
+    }
+
+  }
+
+  @media screen and (min-width: 1158px) and (min-resolution: 192dpi),
+        screen and (min-width: 1158px) and (min-resolution: 2dppx) {
+          .section-choose {
+            background-image: url(../img/WatchHubIMG/hand2x_desktop.jpg);
+            min-width: 1158px;
+
+          }
+          .container {
+            margin: 0 80px;
+            padding: 0;
+          }
+          .tittle-choose {
+            padding: 0;
+            min-width: 690px;
+            height: 132px;
+            margin: 0;
+            font-weight: 600;
+font-size: 48px;
+line-height: 0.91667;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+          }
+          .container-choose {
+
+            display: flex;
+            gap: 140px;
+
+          }
+          .button-choose {
+            margin: 0;
+          }
+        }
