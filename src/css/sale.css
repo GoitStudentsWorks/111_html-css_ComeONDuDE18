@@ -1,0 +1,307 @@
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 375px;
+    padding: 0px 20px;
+}
+
+.sale {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    margin: 30px 0;
+    width: 335px;
+}
+
+.sale-header {
+    align-self: left;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.sale-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.images-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.images-list {
+    width: 335px;
+    height: 80px;
+}
+
+.view-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.list-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    background-color: #f3f3f3;
+}
+
+.view-list-img {
+    padding: 13px 14px;
+}
+
+.main-view {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    background-color: #f3f3f3;
+}
+
+.main-view-img {
+    padding: 50px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 48px 28px;
+    background-color: #3350e9;
+}
+
+.model-name {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.model-header {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.product-tag {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.old-price {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.true-price {
+    border-radius: 8px;
+    width: 68px;
+    height: 32px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: #fbfbfb;
+    margin-right: 9px;
+    padding: 8px 12px;
+    background-color: rgba(251, 251, 251, 0.1);
+}
+
+.description-model {
+    margin: 28px 0;
+}
+
+.description-p {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+}
+
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.advantages-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4px;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+
+    .sale {
+        gap: 40px;
+        margin: 40px 0;
+        width: 704px;
+    }
+
+    .sale-header {
+        font-size: 48px;
+        line-height: 0.92;
+    }
+
+    .sale-content {
+        gap: 40px;
+    }
+
+    .images-list {
+        width: 132px;
+        height: 558px;
+    }
+
+    .images-container {
+        gap: 18px;
+    }
+
+    .view-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .view-list-img {
+        padding: 15px 18px;
+    }
+
+    .main-view {
+        border: 1px solid rgba(12, 12, 12, 0.05);
+        border-radius: 50px;
+    }
+
+    .main-view-img {
+        padding: 80px 112px;
+    }
+
+    .description {
+        border-radius: 50px;
+        padding: 60px;
+    }
+
+    .model-header {
+        font-size: 32px;
+        line-height: 1.13;
+    }
+
+    .true-price {
+        width: 78px;
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .description-model {
+        margin: 30px 0 40px 0;
+    }
+
+    .description-p {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .advantages {
+        width: 398px;
+        height: 76px;
+    }
+
+    .advantages-item {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        width: 1280px;
+        padding: 0 65px;
+    }
+
+    .sale {
+        margin: 50px 0;
+        width: 1150px;
+    }
+
+    .images-container {
+        width: 580px;
+        height: 558px;
+    }
+
+    .main-view-img {
+        padding: 80px 50px;
+    }
+
+    .description {
+        width: 410px;
+    }
+
+}
