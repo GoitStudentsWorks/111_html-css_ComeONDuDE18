@@ -156,7 +156,8 @@ p {
   flex-direction: column;
   gap: 20px;
   padding: 0px 20px;
-  
+  margin: 0 auto;
+
 
 }
 
@@ -225,7 +226,7 @@ p {
   .about-container {
     gap: 40px;
     padding: 0px 32px;
-    
+
   }
 
   .about-div {
@@ -275,12 +276,12 @@ p {
  .about-text-div {
   width: 460px;
   margin-bottom: 40px;
-  
+
  }
   .about-img {
 
     width: 530px;
     height: 532px;
   }
-    
+
 }

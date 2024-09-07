@@ -43,6 +43,7 @@
   background-position: center;
   background-size: cover;
   padding: 60px 0;
+  margin: 0 auto;
 }
 @media screen and (max-width: 767px) and (min-resolution: 192dpi),
 screen and (max-width: 767px) and (min-resolution: 2dppx) {
