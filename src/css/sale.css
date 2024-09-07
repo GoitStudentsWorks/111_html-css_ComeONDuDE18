@@ -1,32 +1,6 @@
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
-ul,
-ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-.container {
-    width: 375px;
-    padding: 0px 20px;
-}
+@import url('fonts.css');
+@import url('reset.css');
+@import url('container.css');
 
 .sale {
     display: flex;
@@ -62,11 +36,6 @@ img {
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 20px;
-}
-
-.images-list {
-    width: 335px;
-    height: 80px;
 }
 
 .view-list {
@@ -197,11 +166,6 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding: 0 32px;
-    }
-
     .sale {
         gap: 40px;
         margin: 40px 0;
@@ -219,7 +183,6 @@ img {
 
     .images-list {
         width: 132px;
-        height: 558px;
     }
 
     .images-container {
@@ -228,11 +191,11 @@ img {
 
     .view-list {
         flex-direction: column;
-        gap: 10px;
+        gap: 8px;
     }
 
     .view-list-img {
-        padding: 15px 18px;
+        padding: 16px 18px;
     }
 
     .main-view {
@@ -249,19 +212,23 @@ img {
         padding: 60px;
     }
 
+    .model-name {
+        width: 436px;
+    }
+
     .model-header {
         font-size: 32px;
-        line-height: 1.13;
+        line-height: 1.12;
     }
 
     .true-price {
-        width: 78px;
         font-size: 20px;
         line-height: 1;
     }
 
     .description-model {
-        margin: 30px 0 40px 0;
+        margin-top: 30px;
+        margin-bottom: 40px;
     }
 
     .description-p {
@@ -271,7 +238,6 @@ img {
 
     .advantages {
         width: 398px;
-        height: 76px;
     }
 
     .advantages-item {
@@ -280,28 +246,21 @@ img {
     }
 }
 
-@media screen and (min-width: 1158px) {
-    .container {
-        width: 1280px;
-        padding: 0 65px;
-    }
-
+@media screen and (min-width: 1280px) {
     .sale {
         margin: 50px 0;
         width: 1150px;
-    }
-
-    .images-container {
-        width: 580px;
-        height: 558px;
     }
 
     .main-view-img {
         padding: 80px 50px;
     }
 
-    .description {
+    .description-p {
         width: 410px;
     }
 
+    .model-name {
+        width: 389px;
+    }
 }
