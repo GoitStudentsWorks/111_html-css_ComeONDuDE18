@@ -100,15 +100,20 @@
     min-width: 690px;
     margin: 0;
     padding: 0;
+    max-height: 132px;
 
 
   }
   .container-choose {
     display: flex;
-    gap: 140px;
-    padding: 83px 80px;
-    min-width: 1150px;
+    gap: 170px;
+    padding: 0 15px;
+    padding-top: 83px;
+    padding-bottom: 133px;
+
   }
+
+
   .button-choose {
     font-family: "Gilroy", sans-serif;
   font-weight: 500;
