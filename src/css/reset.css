@@ -1,3 +1,10 @@
+body {
+  font-family: "Gilroy", sans-serif;
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -32,3 +39,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+picture {
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
