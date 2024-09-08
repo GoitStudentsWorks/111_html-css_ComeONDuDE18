@@ -32,7 +32,7 @@ body {
       outline: none;
     }
     
-    .reviews-section {
+    .container {
       width: 375px;
       padding: 30px 20px;
       margin-right: auto;
@@ -100,7 +100,7 @@ body {
   
   /*планшетна*/
   @media screen and (min-width: 768px) {
-    .reviews-section {
+    .container {
         width: 768px;
         padding: 40px 32px;
     }
@@ -142,7 +142,7 @@ body {
   
   /*десктопна*/
   @media screen and (min-width: 1280px) {
-    .reviews-section {
+    .container {
         width: 1280px;
         padding: 50px 65px;
     }
