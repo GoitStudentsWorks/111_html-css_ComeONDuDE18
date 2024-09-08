@@ -6,7 +6,7 @@
     flex-direction: column;
     gap: 24px;
     margin: 30px auto;
-    width: 335px;
+    width: 100%;
 }
 
 .sale-header {
@@ -166,7 +166,6 @@
     .sale {
         gap: 40px;
         margin: 40px auto;
-        width: 704px;
     }
 
     .sale-header {
@@ -246,7 +245,6 @@
 @media screen and (min-width: 1280px) {
     .sale {
         margin: 50px auto;
-        width: 1150px;
     }
 
     .main-view-img {
