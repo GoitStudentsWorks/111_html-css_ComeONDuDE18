@@ -2,7 +2,6 @@
 @import url('reset.css');
 @import url('container.css');
 
-
 .section-choose {
   background-color: #0c0c0c;
   background-image: url(../img/WatchHubIMG/hand1x_mobile.png);
@@ -13,8 +12,6 @@
   background-size: cover;
   padding: 60px 0;
   margin: 0 auto;
-
-
 }
 
 .tittle-choose {
@@ -39,107 +36,86 @@
   line-height: 1.3;
   text-align: center;
   margin: 0 28px;
-  padding: 15px 44px; /* Спрощений код */
+  padding: 15px 44px;
   max-width: 160px;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
   background-color: transparent;
   color: #fbfbfb;
   white-space: nowrap;
-
 }
-
 
 /* Адаптація для планшетів */
 @media screen and (min-width: 768px) {
   .section-choose {
-    background-color: #0c0c0c;
     background-image: url(../img/WatchHubIMG/hand1x_tablet.png);
-    background-size: cover;
     max-width: 704px;
     padding: 80px 0;
   }
 
   .tittle-choose {
     font-size: 48px;
-    margin-bottom: 32px; /* Додайте відступ між текстом і кнопкою */
+    margin-bottom: 32px;
     padding: 0 64px;
-    max-width: 576px; /* Збільшення ширини для планшетної версії */
+    max-width: 576px;
     line-height: 1.2;
-    height: auto; /* Заберіть фіксовану висоту */
   }
 
   .button-choose {
-    margin-left: 64px;
-    margin-top: 32px; /* Застосовується відступ */
+    margin-top: 32px;
     padding: 15px 44px;
     margin-left: 64px;
   }
 }
 
-/* Для екранів з високою роздільною здатністю ) */
+/* Висока роздільна здатність для планшетів */
 @media screen and (min-width: 768px) and (min-resolution: 192dpi),
        screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .section-choose {
-    background-color: #0c0c0c;
     background-image: url(../img/WatchHubIMG/hand2x_tablet.png);
-    max-width: 704px;
   }
 }
+
+/* Десктопна версія */
 @media screen and (min-width: 1280px) {
   .section-choose {
-    background-color: #0c0c0c;
     background-image: url(../img/WatchHubIMG/hand1x_desktop.png);
-   /*padding: 83px 0;*/
     max-width: 1150px;
     padding: 0;
-
   }
+  .section-choose .container {
+    height: 298px;
+  }
+
   .tittle-choose {
     font-size: 48px;
     min-width: 690px;
-    margin: 0;
     padding: 0;
     max-height: 132px;
-
-
   }
+
   .container-choose {
     display: flex;
-    gap: 170px;
-    padding: 0 15px;
-    padding-top: 83px;
-    padding-bottom: 133px;
+    gap: 140px;
+    max-height: 132px;
 
   }
-
 
   .button-choose {
-    font-family: "Gilroy", sans-serif;
-  font-weight: 500;
-  line-height: 1.3;
-  text-align: center;
-  margin: 0 28px;
-  padding: 15px 44px; /* Спрощений код */
-  max-width: 160px;
-  border: 1px solid rgba(251, 251, 251, 0.15);
-  border-radius: 16px;
-  background-color: transparent;
-  color: #fbfbfb;
-  margin: 0;
-  width: 160px;
-  height: 48px;
-  white-space: nowrap;
+    margin: 0;
+    padding: 15px 5px;
+    width: 160px;
+    height: 48px;
   }
-  }
-  @media screen and (min-width: 1280px) and (min-resolution: 192dpi),
-       screen and (min-width: 1280px) and (min-resolution: 2dppx) {
-        .section-choose {
-          background-color: #0c0c0c;
-          background-image: url(../img/WatchHubIMG/hand2x_desktop.png);
+}
 
-       }
-        }
+/* Висока роздільна здатність для десктопів */
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi),
+       screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .section-choose {
+    background-image: url(../img/WatchHubIMG/hand2x_desktop.png);
+  }
+}
 
 
 

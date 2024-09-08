@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-  
+
 body {
     font-family: "Gilroy", sans-serif;
     background-color: #ffffff;
@@ -16,43 +16,43 @@ body {
     p {
       margin: 0;
     }
-    
+
     img {
       display: block;
       max-width: 100%;
     }
-    
+
     ul {
       list-style-type: none;
       margin: 0;
       padding-left: 0;
     }
-    
+
     input {
       outline: none;
     }
-    
+
     .container {
       width: 375px;
       padding: 30px 20px;
       margin-right: auto;
       margin-left: auto;
     }
-  
+
     .reviews-title {
       color: #0C0C0C;
       font-size: 32px;
       font-weight: 600;
-      line-height: 32px; 
+      line-height: 32px;
       letter-spacing: -0.64px;
       margin-bottom: 24px;
     }
-    
+
     .reviews-list {
       display: flex;
       gap: 20px;
     }
-    
+
     .rewiews-item {
       display: flex;
       flex-direction: column;
@@ -62,12 +62,12 @@ body {
       background: #F3F3F3;
       width: 100%;
     }
-  
+
     .rewiews-item-second,
     .rewiews-item-third {
       display: none;
     }
-    
+
     .image-container img {
       width: 56px;
       height: 56px;
@@ -76,7 +76,7 @@ body {
       background: lightgray;
       object-fit: cover;
     }
-    
+
     .rewiews-item-title {
       color: #0C0C0C;
       text-align: center;
@@ -87,7 +87,7 @@ body {
       margin-bottom: 8px;
       margin-top: 24px;
     }
-    
+
     .rewiews-paragraph {
       width: 263px;
       color: rgba(12, 12, 12, 0.40);
@@ -97,41 +97,41 @@ body {
       line-height: 18px;
       letter-spacing: -0.28px;
     }
-  
+
   /*планшетна*/
   @media screen and (min-width: 768px) {
     .container {
         width: 768px;
         padding: 40px 32px;
     }
-  
+
     .reviews-title {
       font-size: 48px;
       line-height: 44px;
       letter-spacing: -0.96px;
       margin-bottom: 40px;
     }
-  
+
     .reviews-list {
       display: flex;
       gap: 16px;
     }
-    
+
     .rewiews-item {
       display: flex;
       width: calc((100% - 1 * 16px) / 2);
     }
-  
+
     .rewiews-item-third {
       display: none;
     }
-    
+
     .rewiews-item-title {
       font-size: 18px;
       line-height: 110%;
       letter-spacing: -0.36px;
     }
-    
+
     .rewiews-paragraph {
       width: 272px;
       font-size: 16px;
@@ -139,37 +139,37 @@ body {
       letter-spacing: -0.32px;
     }
   }
-  
+
   /*десктопна*/
   @media screen and (min-width: 1280px) {
     .container {
         width: 1280px;
         padding: 50px 65px;
     }
-  
+
     .reviews-title {
       font-size: 48px;
       line-height: 44px;
       letter-spacing: -0.96px;
       margin-bottom: 40px;
     }
-    
+
     .reviews-list {
       display: flex;
       gap: 20px;
     }
-    
+
     .rewiews-item {
       display: flex;
       width: calc((100% - 2 * 20px) / 3);
     }
-    
+
     .rewiews-item-title {
       font-size: 18px;
       line-height: 110%;
       letter-spacing: -0.36px;
     }
-    
+
     .rewiews-paragraph {
       width: 298px;
       font-size: 16px;
