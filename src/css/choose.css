@@ -4,7 +4,8 @@
 
 
 .section-choose {
-  background-image: url(../img/WatchHubIMG/hand1x_mobile.jpg);
+  background-color: #0c0c0c;
+  background-image: url(../img/WatchHubIMG/hand1x_mobile.png);
   border-radius: 30px;
   max-width: 335px;
   background-repeat: no-repeat;
@@ -52,7 +53,8 @@
 /* Адаптація для планшетів */
 @media screen and (min-width: 768px) {
   .section-choose {
-    background-image: url(../img/WatchHubIMG/hand1x_tablet.jpg);
+    background-color: #0c0c0c;
+    background-image: url(../img/WatchHubIMG/hand1x_tablet.png);
     background-size: cover;
     max-width: 704px;
     padding: 80px 0;
@@ -79,13 +81,15 @@
 @media screen and (min-width: 768px) and (min-resolution: 192dpi),
        screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .section-choose {
-    background-image: url(../img/WatchHubIMG/hand2x_tablet.jpg);
+    background-color: #0c0c0c;
+    background-image: url(../img/WatchHubIMG/hand2x_tablet.png);
     max-width: 704px;
   }
 }
 @media screen and (min-width: 1280px) {
   .section-choose {
-    background-image: url(../img/WatchHubIMG/hand1x_desktop.jpg);
+    background-color: #0c0c0c;
+    background-image: url(../img/WatchHubIMG/hand1x_desktop.png);
    /*padding: 83px 0;*/
     max-width: 1150px;
     padding: 0;
@@ -94,7 +98,6 @@
   .tittle-choose {
     font-size: 48px;
     min-width: 690px;
-    height: 132px;
     margin: 0;
     padding: 0;
 
@@ -104,6 +107,7 @@
     display: flex;
     gap: 140px;
     padding: 83px 80px;
+    min-width: 1150px;
   }
   .button-choose {
     font-family: "Gilroy", sans-serif;
@@ -123,6 +127,15 @@
   white-space: nowrap;
   }
   }
+  @media screen and (min-width: 1280px) and (min-resolution: 192dpi),
+       screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+        .section-choose {
+          background-color: #0c0c0c;
+          background-image: url(../img/WatchHubIMG/hand2x_desktop.png);
+
+       }
+        }
+
 
 
 
