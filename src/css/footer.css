@@ -1,0 +1,59 @@
+.footer {
+    backgroun-color: #0C0C0C;
+  }
+  .footer-logo{
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: #FBFBFB;
+  }
+  .container{
+    max-width: 1136px;
+  }
+  .footer-cont{
+    display: flex;
+    flex-wrap: nowrap;
+    width: calc();
+  }
+  .footer-social{
+    display: flex;
+    gap: 10px;
+  }
+  .footer-logo-network{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer-btn{
+    background-color: transparent;
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+  }
+  .footer-svg{
+    fill: #FBFBFB;
+  }
+  .footer-title{
+    font-family: "Gilroy", sans-serif;
+    max-width: 523px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 114%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #FDFDFD;
+  }
+  .btn-number{
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    color: #FBFBFB;
+  }
