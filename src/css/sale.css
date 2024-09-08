@@ -182,12 +182,12 @@
     }
 
     .images-container {
-        gap: 18px;
+        gap: 20px;
     }
 
     .view-list {
         flex-direction: column;
-        gap: 8px;
+        gap: 10px;
     }
 
     .view-list-img {
@@ -195,7 +195,8 @@
     }
 
     .main-view {
-        border: 1px solid rgba(12, 12, 12, 0.05);
+        width: 552px;
+        height: 558px;
         border-radius: 50px;
     }
 
@@ -247,8 +248,17 @@
         margin: 50px auto;
     }
 
+    .main-view {
+        width: 428px;
+        border-radius: 50px;
+    }
+
     .main-view-img {
         padding: 80px 50px;
+    }
+
+    .description {
+        height: 558px;
     }
 
     .description-p {
