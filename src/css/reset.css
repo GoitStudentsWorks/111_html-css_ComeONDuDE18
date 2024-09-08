@@ -7,6 +7,18 @@ h6,
 p {
   margin: 0;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+picture {
+  flex-shrink: 0;
+  max-width: 100%;
+}
 
 p:last-child {
   margin-bottom: 0;
@@ -32,3 +44,4 @@ img {
   max-width: 100%;
   height: auto;
 }
+
