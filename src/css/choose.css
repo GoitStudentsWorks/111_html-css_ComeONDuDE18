@@ -107,7 +107,6 @@
     gap: 140px;
     max-height: 132px;
     margin-bottom: 45px;
-
   }
 
   .button-choose {
@@ -115,7 +114,7 @@
     padding: 15px 5px;
     width: 160px;
     height: 48px;
-    text-align: center; 
+    text-align: center;
   }
 }
 
