@@ -20,7 +20,7 @@
 }
 .modal-mobile {
   max-width: 200px;
-  margin: 0 auto;
+  margin: 0 0 0 auto;
   position: relative;
   display: flex;
   flex-direction: column;
