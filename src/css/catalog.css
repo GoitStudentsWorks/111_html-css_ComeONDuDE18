@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 @import url('fonts.css');
 @import url('reset.css');
 @import url('container.css');
 
+=======
+>>>>>>> 51684c33995195690a1efee6b91797847c5319d0
 /*---------------------------------------------------*/
 .catalog {
   padding: 30px 0;
 }
+
 .catalog-title {
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;
