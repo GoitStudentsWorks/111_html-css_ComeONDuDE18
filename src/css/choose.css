@@ -82,22 +82,31 @@
     background-image: url(../img/WatchHubIMG/hand1x_desktop.png);
     max-width: 1150px;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
   .section-choose .container {
     height: 298px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .tittle-choose {
     font-size: 48px;
     min-width: 690px;
     padding: 0;
-    max-height: 132px;
+    margin: 0;
   }
 
   .container-choose {
     display: flex;
     gap: 140px;
     max-height: 132px;
+    margin-bottom: 45px;
 
   }
 
@@ -106,6 +115,7 @@
     padding: 15px 5px;
     width: 160px;
     height: 48px;
+    text-align: center; 
   }
 }
 
