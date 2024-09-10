@@ -20,6 +20,7 @@
   min-width: 279px;
   margin-bottom: 28px;
   color: #fbfbfb;
+  line-height: 1;
 }
 
 .span-choose {
@@ -39,7 +40,13 @@
   background-color: transparent;
   color: #fbfbfb;
   white-space: nowrap;
+  transition: background-color 250ms #fbfbfb;
 }
+.button-choose:hover,
+.button-choose:focus {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+ }
 
 /* Адаптація для планшетів */
 @media screen and (min-width: 768px) {
@@ -54,7 +61,7 @@
     margin-bottom: 32px;
     padding: 0 64px;
     max-width: 576px;
-    line-height: 1.2;
+    line-height: 0.92;
   }
 
   .button-choose {
@@ -80,7 +87,7 @@
     height: 298px;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
@@ -95,8 +102,6 @@
   .container-choose {
     display: flex;
     gap: 140px;
-    max-height: 132px;
-    margin-bottom: 45px;
   }
 
   .button-choose {

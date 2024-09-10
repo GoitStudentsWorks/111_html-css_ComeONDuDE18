@@ -17,7 +17,7 @@
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
 .blocks {
         display: flex;
         flex-direction: row;
@@ -83,6 +83,7 @@
         outline: transparent;
         resize: none;
         padding: 12px 136px 54px 14px;
+        background-color: transparent;
 }
 
 @media screen and (min-width: 768px) {

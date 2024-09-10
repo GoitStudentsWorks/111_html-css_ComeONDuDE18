@@ -1,5 +1,4 @@
 .catalog-title {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
@@ -29,7 +28,7 @@
   margin-top: 10px;
 }
 .content-text-ellipsis {
-  font-family: 'Gilroy', sans-serif;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -38,7 +37,7 @@
   margin-bottom: 8px;
 }
 .content-text-price {
-  font-family: 'Gilroy', sans-serif;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.3;
@@ -46,7 +45,7 @@
   color: rgba(12, 12, 12, 0.5);
 }
 .catalog-button {
-  font-family: 'Gilroy', sans-serif;
+ 
   padding: 15px 44px;
   font-weight: 500;
   font-size: 14px;
