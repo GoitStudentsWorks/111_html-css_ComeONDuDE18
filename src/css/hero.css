@@ -6,7 +6,6 @@
 
 .hero-section {
     padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .hero-text-wrap {
@@ -22,7 +21,6 @@
     letter-spacing: -0.02em;
     color: #0c0c0c; /*need check common body font color*/
     max-width: 335px;
-    /* margin-bottom: 20px; */
 }
 
 .hero-title-link {
@@ -113,7 +111,6 @@
     }
     .hero-section {
         padding-top: 80px;
-        padding-bottom: 80px;
     }
 
     .hero-title {
@@ -166,7 +163,6 @@
 @media screen and (min-width: 1280px) {
     .hero-section {
         padding-top: 80px;
-        padding-bottom: 100px;
     }
 
     .hero-title {

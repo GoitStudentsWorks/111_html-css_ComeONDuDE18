@@ -1,13 +1,4 @@
-@import url('fonts.css');
-@import url('reset.css');
-@import url('container.css');
-
-.section-choose {
-
-  padding: 30px 20px;
-}
-
-.section-choose .container {
+.choose-container-wrap {
   background-color: #0c0c0c;
   background-image: url(../img/WatchHubIMG/hand1x_mobile.png);
   border-radius: 30px;
@@ -15,8 +6,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
   padding: 60px 0;
+  margin: 0 auto;
 }
 
 .tittle-choose {
@@ -52,7 +43,7 @@
 
 /* Адаптація для планшетів */
 @media screen and (min-width: 768px) {
-  .section-choose {
+  .choose-container-wrap {
     background-image: url(../img/WatchHubIMG/hand1x_tablet.png);
     max-width: 704px;
     padding: 80px 0;
@@ -76,24 +67,18 @@
 /* Висока роздільна здатність для планшетів */
 @media screen and (min-width: 768px) and (min-resolution: 192dpi),
        screen and (min-width: 768px) and (min-resolution: 2dppx) {
-  .section-choose {
+  .choose-container-wrap {
     background-image: url(../img/WatchHubIMG/hand2x_tablet.png);
   }
 }
 
 /* Десктопна версія */
 @media screen and (min-width: 1280px) {
-  .section-choose {
+  .choose-container-wrap {
     background-image: url(../img/WatchHubIMG/hand1x_desktop.png);
     max-width: 1150px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .section-choose .container {
     height: 298px;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
