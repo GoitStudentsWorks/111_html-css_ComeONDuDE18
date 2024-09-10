@@ -49,20 +49,18 @@
     flex-wrap: nowrap;
 }
 .btn-number {
-    min-width: 152px;
-    height: 44px;
-    opacity: 80%;
-    font-family: "Gilroy", sans-serif;
+  display: block;
+    padding: 15px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 129%;
+    line-height: 1.29;
     text-transform: uppercase;
-    text-align: center;
-    border-radius: 15px;
-    background-color: transparent;
+     }
+.number {
+  border-radius: 16px;
+  background-color: transparent;
     border: 1px solid rgba(251, 251, 251, 0.1);
     color: #FBFBFB;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social {
@@ -101,10 +99,6 @@
     opacity: 100%;
 }
 
-.btn-number:hover,
-.btn-number:focus {
-    opacity: 100%;
-}
 
 .footer-svg {
     fill: #fbfbfb;
@@ -244,10 +238,7 @@
         margin-top: 118px;
     }
 
-    .btn-number {
-        min-width: 160px;
-        margin-left: 145px;
-    }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -285,9 +276,13 @@
         margin-top: 0;
         max-width: 523px;
     }
-    .btn-number{
-        margin-left: 145px;
+    .number {
+margin-left: 145px;
     }
+    .btn-number {
+      margin: 0 ;
+    }
+
     .text-number{
         flex-direction: row;
         flex-wrap: nowrap;
