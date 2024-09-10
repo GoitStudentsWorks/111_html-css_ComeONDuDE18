@@ -1,93 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact us</title>
-    <link rel="stylesheet" href="../css/contactus.css" type="text/css" />
-  </head>
-  <body>
-    <section class="contactus" id="#contactus">
-      <div class="container cont-cont">
-        <h2 class="contaktus-title">Contact Us</h2>
-        <div class="blocks">
-          <div class="contactus-form">
-            <p class="contactus-text">
-              Please use the form below to contact us. Enter your name, email,
-              phone, and message and we'll get back to you shortly.
-            </p>
-            <form class="form" name="contact" autocomplete="off" novalidate>
-              <label for="user_name"></label>
-              <input
-                class="input"
-                type="text"
-                name="user_name"
-                id="user_name"
-                placeholder="Name"
-                required
-              />
-              <label for="user_email"></label>
-              <input
-                class="input"
-                type="email"
-                name="user_email"
-                id="user_email"
-                placeholder="Email"
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                required
-              />
-              <label for="user_tel"></label>
-              <input
-                class="input"
-                type="tel"
-                name="user_tel"
-                id="user_tel"
-                placeholder="+380"
-                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-                required
-              />
-              <label for="comment"></label>
-              <textarea
-                class="form-comment"
-                name="comment"
-                placeholder="Comment"
-                rows="4"
-                id="comment"
-              ></textarea>
-              <button type="submit" class="button-click">Send</button>
-            </form>
-          </div>
-          <div class="contactus-container-img">
-            <picture>
-              <source
-                media="(min-width: 1280px)"
-                srcset="
-                  ./img/Contact_Us/Rectangle_dec_1x-min.jpg  1x,
-                  ./img/Contact_Us/Rectangle_dec_@2x-min.jpg 2x
-                "
-              />
-              <source
-                media="(min-width: 768px)"
-                srcset="
-                  ./img/Contact_Us/Rectangle_tablet_1x-min.jpg  1x,
-                  ./img/Contact_Us/Rectangle_tablet_@2x-min.jpg 2x
-                "
-              />
-              <source
-                media="(max-width: 767px)"
-                srcset="
-                  ./img/Contact_Us/Rectangle_mob_1x-min.jpg  1x,
-                  ./img/Contact_Us/Rectangle_mob_@2x-min.jpg 2x
-                "
-              />
-              <img
-                src="./img/Contact_Us/Rectangle11-min.jpg"
-                alt="photo_clock"
-              />
-            </picture>
-          </div>
-        </div>
+<section class="section" id="contactus">
+  <div class="container">
+    <h2 class="contaktus-title">Contact Us</h2>
+    <div class="blocks">
+      <div class="contactus-form">
+        <p class="contactus-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="form" name="contact" autocomplete="off" novalidate>
+          <label for="user_name"></label>
+          <input
+            class="input"
+            type="text"
+            name="user_name"
+            id="user_name"
+            placeholder="Name"
+            required
+          />
+          <label for="user_email"></label>
+          <input
+            class="input"
+            type="email"
+            name="user_email"
+            id="user_email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <label for="user_tel"></label>
+          <input
+            class="input"
+            type="tel"
+            name="user_tel"
+            id="user_tel"
+            placeholder="+380"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            required
+          />
+          <label for="comment"></label>
+          <textarea
+            class="form-comment"
+            name="comment"
+            placeholder="Comment"
+            rows="4"
+            id="comment"
+          ></textarea>
+          <button type="submit" class="button-click">Send</button>
+        </form>
       </div>
-    </section>
-  </body>
-</html>
+      <div class="contactus-container-img">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/Contact_Us/Rectangle_dec_1x-min.jpg  1x,
+              ./img/Contact_Us/Rectangle_dec_@2x-min.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/Contact_Us/Rectangle_tablet_1x-min.jpg  1x,
+              ./img/Contact_Us/Rectangle_tablet_@2x-min.jpg 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/Contact_Us/Rectangle_mob_1x-min.jpg  1x,
+              ./img/Contact_Us/Rectangle_mob_@2x-min.jpg 2x
+            "
+          />
+          <img src="./img/Contact_Us/Rectangle11-min.jpg" alt="photo_clock" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
