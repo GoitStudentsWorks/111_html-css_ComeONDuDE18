@@ -48,12 +48,21 @@
     display: flex;
     flex-wrap: nowrap;
 }
-
 .btn-number {
-    width: 160px;
-    height: 48px;
-    border-radius: 15px;
+    min-width: 152px;
+    height: 44px;
     opacity: 80%;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    color: #FBFBFB;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social {
@@ -75,29 +84,32 @@
     gap: 20px;
 }
 
-.footer-btn {
+.footer-items {
     background-color: transparent;
     border: 1px solid rgba(251, 251, 251, 0.1);
     padding: 8px;
     width: 36px;
     height: 36px;
     border-radius: 10px;
-    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 
-.footer-btn:hover,
-.footer-btn:focus,
+.footer-items:hover .footer-svg,
+.footer-items:focus .footer-svg {
+    opacity: 100%;
+}
+
 .btn-number:hover,
 .btn-number:focus {
-    fill: #FBFBFB;
     opacity: 100%;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    transition-delay: 250ms;
-    transition-duration: 250ms;
 }
 
 .footer-svg {
-    fill: #FBFBFB;
+    fill: #fbfbfb;
+    opacity: 80%;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-title {
@@ -111,21 +123,6 @@
     color: #fbfbfb;
     margin-left: auto;
     margin-right: auto;
-}
-
-.btn-number {
-    width: 152px;
-    height: 44px;
-    opacity: 80%;
-    font-family: "Gilroy", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    text-transform: uppercase;
-    text-align: center;
-    background-color: transparent;
-    border: 1px solid rgba(251, 251, 251, 0.1);
-    color: #FBFBFB;
 }
 
 .footer-paragraph-two {
@@ -246,6 +243,11 @@
         max-width: 524px;
         margin-top: 118px;
     }
+
+    .btn-number {
+        min-width: 160px;
+        margin-left: 145px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -287,7 +289,7 @@
         margin-left: 145px;
     }
     .text-number{
-    flex-direction: row;
-    flex-wrap: nowrap;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
 }
