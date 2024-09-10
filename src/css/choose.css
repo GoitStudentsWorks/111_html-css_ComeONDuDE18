@@ -3,6 +3,11 @@
 @import url('container.css');
 
 .section-choose {
+
+  padding: 30px 20px;
+}
+
+.section-choose .container {
   background-color: #0c0c0c;
   background-image: url(../img/WatchHubIMG/hand1x_mobile.png);
   border-radius: 30px;
@@ -10,8 +15,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 60px 0;
   margin: 0 auto;
+  padding: 60px 0;
 }
 
 .tittle-choose {
