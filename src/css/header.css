@@ -1,4 +1,12 @@
-
+.button-burger {
+  border: none;
+  background: transparent;
+}
+@media screen and (min-width: 1280px) {
+  .button-burger {
+    display: none;
+  }
+}
 .header-container {
   padding-top: 20px;
   padding-bottom: 20px;
