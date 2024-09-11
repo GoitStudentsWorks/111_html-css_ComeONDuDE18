@@ -54,6 +54,7 @@
   height: 48px;
   background: #3350e9;
   border: none;
+  padding: 15px 38px;
 }
 .about-button:hover,
 .about-button:focus {
