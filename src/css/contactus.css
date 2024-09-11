@@ -25,6 +25,9 @@
   display: block;
   margin-bottom: 18px;
 }
+.form-comment {
+  padding: 16px;
+}
 
 @media screen and (min-width: 768px) {
     .contaktus-title {
@@ -90,13 +93,11 @@
         width: 100%;
         outline: transparent;
         resize: none;
-        padding: 12px 136px 54px 14px;
         background-color: transparent;
 }
 
 @media screen and (min-width: 768px) {
     .form-comment {
-       padding: 16px 315px 54px 16px;
        height: 20px;
     }
 }
@@ -140,7 +141,6 @@
     }
 
     .form-comment {
-        padding: 16px 16px;
         height: 90px;
     }
 
