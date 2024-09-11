@@ -16,11 +16,14 @@
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
   width: 100%;
-  margin-bottom: 18px;
   position: relative;
   outline: transparent;
   background-color: transparent;
   padding: 12px 13px 12px 14px;
+}
+.labelform {
+  display: block;
+  margin-bottom: 18px;
 }
 
 @media screen and (min-width: 768px) {

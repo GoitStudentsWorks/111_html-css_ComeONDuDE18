@@ -8,7 +8,7 @@
           phone, and message and we'll get back to you shortly.
         </p>
         <form class="form" name="contact" autocomplete="off">
-          <label for="user_name"></label>
+          <label for="user_name" class="labelform">
           <input
             class="input"
             type="text"
@@ -17,7 +17,8 @@
             placeholder="Name"
             required
           />
-          <label for="user_email"></label>
+        </label>
+          <label for="user_email" class="labelform">
           <input
             class="input"
             type="email"
@@ -27,7 +28,8 @@
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
             required
           />
-          <label for="user_tel"></label>
+        </label>
+          <label class="labelform" for="user_tel">
           <input
             class="input"
             type="tel"
@@ -38,7 +40,8 @@
             pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
             required
           />
-          <label for="comment"></label>
+        </label>
+          <label for="comment">
           <textarea
             class="form-comment"
             name="comment"
@@ -46,6 +49,7 @@
             rows="4"
             id="comment"
           ></textarea>
+        </label>
           <button type="submit" class="button-click">Send</button>
         </form>
       </div>
